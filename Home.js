@@ -1,3 +1,4 @@
-function clouds() {
-  alert ('Hey Earth')
+function clouds(popupId) {
+  var popup = document.getElementById(popupId);
+  popup.classList.toggle("show");
 }
