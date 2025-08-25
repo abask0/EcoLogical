@@ -66,6 +66,7 @@ p{
 
 }
 
+/* style for links (in navbar) */
 a:link {
   text-decoration: none;
   color: white;
@@ -102,7 +103,7 @@ a:active {
   text-align: center;
 }
 
-/* Popup container - can be anything you want */
+/*popup, code - w3 schools*/
 .popup {
   position: relative;
   display: inline-block;
@@ -113,7 +114,6 @@ a:active {
   user-select: none;
 }
 
-/* The actual popup */
 .popup .popuptext {
   visibility: hidden;
   width: 160px;
@@ -141,23 +141,13 @@ a:active {
   border-color: #f3f2da;
 }
 
-/* Toggle this class - hide and show the popup */
+
 .popup .show {
   visibility: visible;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
 }
 
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
 
 /* footer */
 
