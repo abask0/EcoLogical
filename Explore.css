@@ -12,19 +12,6 @@ body {
     margin-bottom: -10px;
 }
 
-.sky {
-  background-color: #3674b5;
-  overflow: hidden;
-}
-
-#sun {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 140px;
-  
-}
-
 /* Nav Bar */
 
 .navHills{
@@ -47,11 +34,27 @@ body {
 
 .navBar a{padding-left: 2%; padding-right: 2%;}
 
+/* header */
+.sky {
+  background-color: #3674b5;
+  overflow: hidden;
+}
+
+#sun {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 140px;
+  
+}
+
 .exploreHeader {
     display: flex;
     align-items: center;
     gap: 15px;
 }
+
+/* CSS for fonts */
 
 h1{
   margin-left: 15px;
@@ -90,6 +93,8 @@ h4 {
 
 }
 
+/* CSS for links */
+
 a:link {
   text-decoration: none;
   color: white;
@@ -115,6 +120,8 @@ a:active {
   justify-content: center;
   align-items: center;
 }
+
+/* content - boxes */
 
 .content {
   background-color: #4e8d7c;

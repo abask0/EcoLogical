@@ -12,19 +12,6 @@ body {
     margin-bottom: -10px;
 }
 
-.sky {
-  background-color: #578fca;
-  overflow: hidden;
-}
-
-#sun {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  gap: 140px;
-  
-}
-
 /* Nav Bar */
 
 .navHills{
@@ -47,6 +34,21 @@ body {
 
 .navBar a{padding-left: 2%; padding-right: 2%;}
 
+/* Header */
+
+.sky {
+  background-color: #578fca;
+  overflow: hidden;
+}
+
+#sun {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 140px;
+  
+}
+
 /* Headings and font CSS */
 
 .Title {
@@ -55,6 +57,7 @@ body {
   font-family: 'Baloo';
 
 }
+
 h1{
   margin-top: 0px;
   padding: 10px;
@@ -162,12 +165,6 @@ a:hover {
 a:active {
   text-decoration: none;
   color: #ea97ad;
-}
-
-#sun {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .content {
