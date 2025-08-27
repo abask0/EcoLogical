@@ -1,1 +1,0 @@
-Ecological! This website is to educate younger students keen on learning about the environment. With this website you can learn about sustainability topics, and your way to help out. Have fun exploring!
